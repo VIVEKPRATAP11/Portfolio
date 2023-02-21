@@ -10,8 +10,11 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Vivek Pratap </span>
             from <span className="purple"> Ayodhya, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            <br />
+            Currently I am pursuing <span className="purple">
+              Btech{" "}
+            </span> in <span className="purple">Information Technology </span>{" "}
+            from Jss Academy of Technical Education Noida.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -24,7 +27,7 @@ function AboutCard() {
               <ImPointRight /> Playing Basketball
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Watching Movies
             </li>
           </ul>
 

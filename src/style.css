@@ -741,3 +741,9 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+.cv {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 950px !important;
+}

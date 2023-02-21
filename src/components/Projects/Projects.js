@@ -31,18 +31,6 @@ function Projects() {
               title="Natours-A Tour Website"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
               ghLink="https://github.com/VIVEKPRATAP11/natours"
-              // demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={NatoursD}
-              isBlog={false}
-              title="Natours"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/VIVEKPRATAP11/Natours-D"
-              demoLink="https://vivekpratap11.github.io/Natours-D/"
             />
           </Col>
 
@@ -50,10 +38,21 @@ function Projects() {
             <ProjectCard
               imgPath={crwn}
               isBlog={false}
-              title="Editor.io"
+              title="CRWN-A Shopping site "
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
               ghLink="https://github.com/VIVEKPRATAP11/crwn-clothing"
               demoLink="https://cute-muffin-3adaba.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={DiceGame}
+              isBlog={false}
+              title="Dice-Game"
+              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              ghLink="https://github.com/VIVEKPRATAP11/Dice-Game"
+              demoLink="https://vivekpratap11.github.io/Dice-Game/"
             />
           </Col>
 
@@ -79,15 +78,14 @@ function Projects() {
               demoLink="https://vivekpratap11.github.io/spotify_clone/"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={DiceGame}
+              imgPath={NatoursD}
               isBlog={false}
-              title="Dice-Game"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/VIVEKPRATAP11/Dice-Game"
-              demoLink="https://vivekpratap11.github.io/Dice-Game/"
+              title="Natours"
+              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              ghLink="https://github.com/VIVEKPRATAP11/Natours-D"
+              demoLink="https://vivekpratap11.github.io/Natours-D/"
             />
           </Col>
 
