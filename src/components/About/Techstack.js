@@ -11,7 +11,14 @@ import {
   DiSass,
   DiGit,
 } from "react-icons/di";
-import { SiPug, SiFirebase, SiBootstrap, SiGithub } from "react-icons/si";
+import {
+  SiPug,
+  SiFirebase,
+  SiBootstrap,
+  SiGithub,
+  SiTailwindcss,
+  SiVite,
+} from "react-icons/si";
 
 function Techstack() {
   return (
@@ -29,6 +36,9 @@ function Techstack() {
         <DiSass />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiPug />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -39,6 +49,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVite />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
