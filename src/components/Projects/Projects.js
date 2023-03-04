@@ -14,6 +14,7 @@ import Bankist from "../../Assets/Projects/Bankist.png";
 import Codex from "../../Assets/Projects/Codex.png";
 import Dalle from "../../Assets/Projects/Dall-e.png";
 import gpt3 from "../../Assets/Projects/gpt3.png";
+import Ecommerce from "../../Assets/Projects/ecommerce.png";
 
 function Projects() {
   return (
@@ -47,6 +48,17 @@ function Projects() {
               description="Codex is a computer program that uses artificial intelligence (AI) and natural language processing (NLP) to understand customer questions and automate responses to them, simulating human conversation. "
               ghLink="https://github.com/VIVEKPRATAP11/codex"
               demoLink="https://codex-six-zeta.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Ecommerce}
+              isBlog={false}
+              title="E-Commerce Website"
+              description="It is a Modern Full Stack ECommerce React Application with Stripe. It is a e-commerce application will include modern design and animations, the ability to add and edit products on the go using a Sanity, all advanced cart, and checkout functionalities, and most importantly, the complete integration with Stripe. "
+              ghLink="https://github.com/VIVEKPRATAP11/ecommerce_sanity_stripe"
+              demoLink="https://ecommerce-sanity-stripe-irqx.vercel.app/"
             />
           </Col>
 
