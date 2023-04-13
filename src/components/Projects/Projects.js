@@ -15,6 +15,7 @@ import Codex from "../../Assets/Projects/Codex.png";
 import Dalle from "../../Assets/Projects/Dall-e.png";
 import gpt3 from "../../Assets/Projects/gpt3.png";
 import Ecommerce from "../../Assets/Projects/ecommerce.png";
+import Filmpire from "../../Assets/Projects/filmpire.png";
 
 function Projects() {
   return (
@@ -28,6 +29,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Filmpire}
+              isBlog={false}
+              title="Filmpire"
+              description="Filmpire combines the desire to unleash powerful creativity with the industry's most advanced JavaScript tools including React.js, Redux, Material UI, Alan AI, and more.
+                This application includes user authentication, dark mode, sort movie on the basis of categories or genres, viewing movie and actor details, adding a movie to favorites or watchlist and many more functionalities.
+                Alan works as in-app voice assistant which create conversational experiences for filmpire"
+              ghLink="https://github.com/VIVEKPRATAP11/Filmpire"
+              demoLink="https://filmpirevp.netlify.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Dalle}
